@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
 import OfficeGallery from "@/components/OfficeGallery";
+import DisclaimerPopup from "@/components/DisclaimerPopup";
 
 const testimonials = [
   {
@@ -95,6 +96,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <DisclaimerPopup />
       <Header />
 
       {/* Hero Section */}
